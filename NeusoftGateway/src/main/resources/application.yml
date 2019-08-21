@@ -1,0 +1,17 @@
+server:
+  port: 8700
+  
+spring:
+  application:
+    name: neusoftGate
+    
+eureka:
+ 
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+   
+    register-with-eureka: false
+    
+    
+  

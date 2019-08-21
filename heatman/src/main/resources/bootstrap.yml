@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: heatitem
+  
+  
+  cloud:    config:      uri:      - http://localhost:9999  profiles:    active:    - node01
+    
+eureka:  instance:    prefer-ip-address: true
+  client:    serviceUrl:      defaultZone: http://localhost:8888/eureka
+  
+  
