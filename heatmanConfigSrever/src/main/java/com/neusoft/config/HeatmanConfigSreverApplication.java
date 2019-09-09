@@ -10,6 +10,7 @@ public class HeatmanConfigSreverApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HeatmanConfigSreverApplication.class, args);
+                System.out.println("小小的测试");
 	}
 
 }
